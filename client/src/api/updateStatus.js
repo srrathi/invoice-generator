@@ -5,7 +5,7 @@ export const updateInvoiceStatus = async (data) => {
   console.log("API call Function");
 
   const responseData = await axios
-    .patch(`http://localhost:4000/api/invoice/status/${data.id}`, {
+    .patch(`/api/invoice/status/${data.id}`, {
       status: data.status,
     })
     .catch((error) => {

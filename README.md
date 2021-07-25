@@ -14,9 +14,9 @@ EMAIL_PASSWORD=YOUR_EMAIL_PASSWORD
 ```
  - Also make sure you have configured your atlas database IP access and allowed less secure app access to your entered email suck=h that you can send invoices to clients directly from the app.
  - Now open two instances of terminal of cloned folder and in first terminal run `npm start` most probably if everything entered is correct you will see 
- ```
-server started, listening at PORT 4000
-MongoDb connected successfully
-```
+
+> server started, listening at PORT 4000 <br>
+> MongoDb connected successfully
+
  - Now in other instance of terminal you opened enter `cd client && npm start` if everything worked fine you will see the React App up and working.
  - Now You can generate your Invoice.

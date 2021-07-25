@@ -4,7 +4,7 @@ Custom Invoice Generator from which you can keep track of your Invoices and also
 ### To start Project on your Local machine
  - First clone this repo
  - open the cloned folder in terminal and enter `cd client && npm install` to install all client side dependencies.
- - After installing all client side dependencies come out back to the cloned folder and run `npm install && npm start`
+ - After installing all client side dependencies come out back to the cloned folder and run `npm install`
  - In the cloned folder add a file with name `.env` and in it add the following
  ```
 MONGODB_DATABASE_USERNAME=YOUR_MONGODB_ATLAS_DATABSE_USERNAME

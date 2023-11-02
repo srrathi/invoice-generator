@@ -10,7 +10,7 @@ require("dotenv").config();
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGODB_DATABASE_USERNAME}:${process.env.MONGODB_DATABASE_ACCESS_KEY}@mern-learning.uou9x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
+    process.env.MONGODB_URL,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

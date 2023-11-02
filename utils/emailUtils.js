@@ -15,7 +15,7 @@ module.exports.sendInvoiceEmail = function (invoice) {
   var mailOptions = {
     from: process.env.EMAIL,
     to: ["srrathi2000@gmail.com", emails].join(","),
-    subject: "Service Invoice for Shri Balaji Store",
+    subject: "Service Invoice for your services",
     html: `<!DOCTYPE html>
     <html lang="en">
       <head>
@@ -144,7 +144,7 @@ module.exports.sendInvoiceEmail = function (invoice) {
                 <table>
                   <tr>
                     <td class="title">
-                      <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/132247735_101846275168649_5931944557956261270_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=tnukZk4pbXwAX9GewoY&_nc_ht=scontent.fdel3-2.fna&oh=6e5a90d66ac48033794c14d93610be5e&oe=60FDAB5B" alt="Company logo" style="width: 100%; max-width: 300px" />
+                      <img src="https://cdn2.iconfinder.com/data/icons/commerce-48/64/Icon_Color_8-512.png" alt="Company logo" style="width: 100%; max-width: 150px" />
                     </td>
     
                     <td>
@@ -167,15 +167,14 @@ module.exports.sendInvoiceEmail = function (invoice) {
                 <table>
                   <tr>
                     <td>
-                      Kailash Boys Hostel<br />
-                      NIT Hamirpur<br />
-                      Hamirpur-177001 , Himachal
+                      Outside Jassusar Gate<br />
+                      Bikaner-334001 , Rajasthan
                     </td>
     
                     <td>
-                      Shri Balaji Store<br />
+                      Rathi Group of Industries<br />
                       Sitaram Rathi<br />
-                      2000srrathi@gmail.com
+                      srrathi2000@gmail.com
                     </td>
                   </tr>
                 </table>

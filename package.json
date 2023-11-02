@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm cache clean –force && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
-    "node": "14.16.0"
+    "node": "19.3.0"
   },
   "author": "Sitaram Rathi",
   "license": "ISC",
